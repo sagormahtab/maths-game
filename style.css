@@ -87,12 +87,14 @@ html{
 }
 
 .box:hover, #startreset:hover{
-    background-color: #AC8CF2;
-    color: #fff;
-    box-shadow: 0 4px #7E5ACE;
+    //background-color: #AC8CF2; had to this for mobile phone compatibilities.
+    //color: #fff; because smartphone doesn't have actual hover effect.
+    //box-shadow: 0 4px #7E5ACE; transfered the upper two property to active part.
 }
 
 .box:active, #startreset:active{
+    background-color: #AC8CF2;
+    color: #fff;
     box-shadow: 0 0;
     top: 4px;
 }
